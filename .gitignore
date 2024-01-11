@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.*
+*.local
+.npmrc
+.yarnrc
+
+# Dependencies
+node_modules
+
+# Build artifacts
+*.tsbuildinfo
+.babel-cache
+.coverage
+.vite
+.next
+dist
+lib
+out
+
+# Runtime artifacts
+*.tmp
+*.log
+*.bak
+*.db
+
+# System artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+.vscode
+.idea
+*.swp
+*~
+
+# Allow project-specific configurations
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Additional entries

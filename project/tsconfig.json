@@ -1,0 +1,25 @@
+{
+  "include": ["src"],
+
+  "compilerOptions": {
+    "strict": true,
+    "composite": true,
+
+    "rootDir": "src",
+    "outDir": "lib",
+    "sourceMap": true,
+
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "target": "ES2022",
+    "module": "NodeNext",
+
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noErrorTruncation": true
+  },
+
+  "ts-node": {
+    "esm": true
+  }
+}
