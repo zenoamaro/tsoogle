@@ -27,7 +27,7 @@
   "dependencies": {
     "lodash-es": "^4.17.21",
     "ts-morph": "^21.0.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.0-dev.20240118"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.8",
